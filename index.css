@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.card-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: hsl(215.29deg 21.52% 15.49%);
+    align-items: center;
+    padding: 40px;
+}
+
+
+.star {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(215.29deg 17.53% 19.02%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card-description {
+    font-size: 1.2em;
+    color: slategrey
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(210deg 19.15% 18.43%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 12px 0px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 71, 71);
+}
+
+.submit-btn:hover {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 12px 0px;
+    border-radius: 50px;
+    color: rgb(255, 71, 71);
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+/* thank you container */
+.result-container {
+    display: none;
+    color: white;
+
+
+}
+
+.visible {
+    display: block;
+    color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: hsl(215.29deg 21.52% 15.49%);
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.img {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+
+}
+
+.active {
+    background-color: blueviolet;
+}
+
+.result-title {
+    border-radius: 25px;
+
+    width: 200px;
+    margin: 0 auto;
+    color: orange;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card-container,
+    .visible {
+        width: 65%;
+        height: 55%;
+        padding: 20px;
+
+    }
+
+    ;
+
+
+
+
+}
